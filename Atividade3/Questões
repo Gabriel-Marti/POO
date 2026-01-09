@@ -1,1 +1,55 @@
+Lista de exercícios – Condicionais
+
+1- Anualmente, o MEC avalia os cursos universitários de todo o país e atribui conceitos com base em diversos critérios, sendo um deles a quantidade de livros disponíveis. Considerando as regras definidas abaixo, escreva um programa que receba como entrada a quantidade de livros e a quantidade de alunos de um curso, ambos inteiros, e retorne a letra maiúscula correspondente ao conceito concedido pelo MEC.
+1 livro para até 8 alunos --> Conceito A
+1 livro para entre 9 e 12 alunos --> Conceito B
+1 livro para entre 13 e 18 alunos --> Conceito C
+1 livro para mais de 18 alunos --> Conceito D
+
+2- A Locadora de Veículos Eudora lançou uma grande promoção esse mês: pagando apenas R$ 90 por diária, o cliente pode alugar um carro de passeio. Para cada diária, o cliente recebe uma cota de quilometragem de 100 km. Cada quilômetro a mais custará uma taxa extra de R$ 12.
+Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago com duas casas decimais.
+
+3- Escreva um programa que leia três números e que diga quantos destes estão acima da média.
+
+4- Escreva um programa que leia três números e que diga qual é o mais próximo da média. Se houver vários números mais próximos, apresente apenas um, qualquer.
+
+5- Defina um programa que calcule quantos dias faltam para o próximo São João. O programa recebe como entradas três inteiros correspondentes ao dia, mês e ano atuais. A solução deve considerar que um ano pode ser bissexto. Chama-se ano bissexto o ano ao qual é acrescentado um dia extra, ficando ele com 366 dias, um dia a mais do que os anos normais de 365 dias, ocorrendo a cada quatro anos (exceto anos múltiplos de 100 que não são múltiplos de 400). Não utilize nenhuma biblioteca Java.
+
+6- Numa cidade o valor da kWh de energia varia da forma mostrada abaixo.
+Até 99 KWh: R$1.35
+100 até 299 KWh: R$1.55
+300 até 574 KWh: R$1.75
+Maior ou igual a 575 KWh: R$2.15
+Esta tabela de preços é progressiva. Isto quer dizer que, por exemplo, se o consumo for 150 kWh, então deste total de kWh, para os primeiros 99 kWh usa-se a tarifa de R$1,35 por kWh e para os restantes 51 kWh usa-se a tarifa de R$1,55.
+Adicionalmente, quando o consumo é maior que 300 kWh, é cobrada uma taxa de 10% no valor da conta e o preço mínimo de qualquer conta é R$35. Escreva um programa para calcular o valor de uma conta elétrica.
+
+7- Num minimercado, um quilo de pão custa R$4,50, um litro de leite custa R$5,30 e uma garrafa de vinho custa R$25,00. O minimercado aplica os seguintes descontos
+Se o peso do pão for maior ou igual a um quilo, haverá um desconto de 5% no valor total do pão.
+A cada três litros de leite, o terceiro litro tem desconto de 10%.
+A cada três garrafas de vinho, a terceira sai grátis.
+Escreva um programa que receba as seguintes informações sobre uma compra: o peso do pão, a quantidade de litros de leite e a quantidade de garrafas de vinho. O programa deverá escrever na tela a conta da compra. A conta deverá conter o valor de cada item da compra, o valor do desconto do item, se houver, e o valor total da compra. Adicionalmente, se o valor da compra de um tipo de item for zero, nada deverá ser apresentado sobre o item. Similarmente, se o valor de um dado desconto for zero, nada deverá ser apresentado. Por exemplo, se a compra incluir meio quilo de pão e quatro litros de leite, o programa deverá escrever na tela o seguinte texto formatado.
+
+Pão --------------------- R$ 2.25
+Leite ------------------- R$ 21.2
+Desconto no leite ------- R$-0.53
+Valor Total ------------- R$ 22.92
+
+Observe que nada aparece com relação a vinhos, pois não foi comprado nenhum vinho. Observe também que nada aparece com relação ao desconto no pão, pois nesta compra não há desconto sobre o pão.
+
+8- Escreva um programa que, dado um mês e um ano, diga quantos dias tem o mês. Considere anos bissextos.
+
+9- Faça um programa que leia um número inteiro e informe qual o mês do ano correspondente por extenso. Caso seja um mês inválido, informe ao usuário. Considere que o mês de janeiro como 1 e o mês de dezembro como 12. As possíveis saídas do programa são:
+janeiro
+fevereiro
+marco
+abril
+maio
+junho
+julho
+agosto
+setembro
+outubro
+novembro
+dezembro
+
 
