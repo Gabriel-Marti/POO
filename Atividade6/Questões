@@ -1,0 +1,25 @@
+Exercícios sobre while, cálculo incremental e busca sequencial
+
+1- Escreva um programa que calcule a soma de uma sequência de inteiros. A sequência é inserida pelo teclado, um número por linha, e termina quando é inserido o número zero. 
+
+2- Escreva um programa que receba uma sequência de inteiros e diga quantos são positivos. A sequência é inserida pelo teclado, um número por linha, e termina quando é inserido o número zero. 
+
+3- Escreva um método que verifique se um inteiro é primo. A solução deve ser feita buscando sequencialmente um divisor do número. O número é primo se e somente se na busca não encontrou um divisor dele.
+
+4- Consegue pensar em uma forma de restringir o espaço de busca do exercício anterior para ter uma solução mais eficiente?
+
+5- A raiz quadrada inteira de um número inteiro não negativo n é o inteiro r tal que n <= r^2 < n+1. Escreva um método baseado em busca sequencial que calcule a raiz quadrada inteira de um número inteiro.
+
+6- Outra maneira de se conseguir a raiz quadrada de um número inteiro é subtrair do número os ímpares consecutivos a partir de 1, enquanto o resultado da subtração for maior ou igual a zero. O número de vezes que se conseguir fazer a subtração é a raiz quadrada inteira. Por exemplo, para calcular a raiz de 16 podemos fazer
+16-1=15
+15-3=12
+12-5=7
+7-7=0
+e concluir que o resultado é 4.
+Escreva um método que calcule a raiz quadrada inteira de um inteiro baseando-se nisto.
+
+7- Defina um sistema de contatos telefônicos. O sistema deve permitir 
+-Cadastrar contatos. Um contato tem como informações o nome do contato e o número de telefone. Não poderá haver dois contatos com o mesmo nome.
+-Remover contatos.
+-Atualizar o telefone de um contato.
+-Dado um nome, pesquisar o número de telefone deste nome, se estiver cadastrado.
