@@ -1,1 +1,50 @@
+Exercícios sobre arrays
+
+
+1- O exercício 8 da lista de exercícios anterior, que pede para calcular quantos dias tem um mês, com o cuidado de considerar ano bissexto, pode ser implementado usando apenas um comando condicional para considerar o caso particular do mês de fevereiro.
+Para isto, pode-se utilizar o array:
+	int[] diasDoMes = {31, 28, 31, 30, 31, 30,
+	                   31, 31, 30, 31, 30, 31}
+que, sem considerar o caso especial de ano bissexto, contém quantos dias cada mês tem. Em particular, o elemento diasDoMes[m-1] contém quantos dias tem o mês m.
+Reimplemente o exercício usando este array. Não esqueça de tratar ano bissexto.
+
+
+2- Defina um sistema pequeno que permita representar uma lista de tópicos de aulas.
+Considere que um tópico de aula tem uma data, um título e um assunto.
+Deverá haver uma funcionalidade que permita listar na tela todos os tópicos de uma lista.
+Deverá também ter uma funcionalidade que permita adicionar um tópico a uma lista de tópicos. 
+
+3- Defina um sistema pequeno que permita representar uma turma de alunos.
+Cada aluno deverá ter nome e número de matrícula.
+O sistema deve permitir adicionar alunos numa turma e listar na tela todos os alunos de uma dada turma.
+As turmas terão outras informações, tais como as que aparecem no SIGAA (nome de turma, disciplina, …). 
+
+
+4- Escreva um programa para reservar assentos num voo. O avião tem 16 assentos. O sistema deverá apresentar um mapa de assentos mostrando os ocupados e livres como neste exemplo
+1X 2 3X 4 5 6X 7X 8 9 10X 11X 12 13 14 15 16
+em que os assentos 1, 3, 6, 7, 10 e 11 estão ocupados.
+Os quatro primeiros assentos são de primeira classe, os restantes são de classe econômica. O sistema deverá perguntar ao usuário se a reserva é para primeira classe ou econômica.
+Só devem permitir-se reservas de acordo com a classe. Assim, por exemplo, não poderá se reservar o assento 12 para a primeira classe nem 2 para a econômica.
+Obviamente, não se deve permitir várias reservas para um mesmo assento. Se o avião estiver lotado, o usuário deverá receber uma mensagem informando-o. 
+O usuário poderá optar por escolher o assento ou deixar que o sistema escolha um para ele.
+Em qualquer momento em que o usuário escolher uma opção que não pode ser realizada, o programa terminará. Por simplicidade, uma reserva registra apenas a ocupação de um assento, ou seja, não interessa quem ocupa um assento.
+
+5- Defina uma classe que implemente a estrutura de dados Pilha. Nesta estrutura, o último que entra é o primeiro em sair. As instâncias devem ter uma capacidade máxima.
+Após atingir esta capacidade, nenhum empilhamento poderá ser feito. Antes de implementar em Java, descreva a classe com um diagrama.
+
+6- A notação polaca reversa (NPR) ou posfixa é uma forma alternativa de escrever expressões aritméticas e lógicas sem a necessidade de usar parênteses.
+Nesta notação, os operadores seguem os operandos, assim, por exemplo, ao invés de 2+3, escreve-se 2 3 +. Como outro exemplo mais significativo temos que
+	(2+3)*(8-5)
+escrita em NPR é
+ 	2 3 + 8 5 - *
+Vejam (Reverse Polish notation para mais exemplos e detalhes.
+As calculadoras Hewlett Packard (HP) popularizaram a NPR na área das engenharias.
+A avaliação de expressões em NPR pode ser realizada usando uma pilha, realizando as seguintes
+ -Cada vez que encontra um número, este é empilhado.
+ -Cada vez que encontra um operador binário, desempilham-se os dois elementos no topo da pilha, se realiza a operação com estes dois números como operandos e o resultado é colocado de volta na pilha.
+No final, a pilha fica com o resultado como único valor nela.
+Defina uma classe CalculadoraNPR que tenha os seguintes métodos
+ -Inserir um número na pilha.
+ -Para cada operador, um método que realize a correspondente operação. Assim, por exemplo, deverá ter um método soma() que desempilha dois elementos, soma-os e o resultado é colocado de volta na pilha.
+ -Retornar um resultado. Este método verifica se há somente um elemento na pilha e então retorna este valor.  
 
