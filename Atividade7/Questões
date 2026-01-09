@@ -1,0 +1,31 @@
+Exercícios sobre Herança, Subtipos e Polimorfismo
+
+1- Dê uma classificação para objetos de tipo Figura. Figuras podem ser bidimensionais ou tridimensionais. Dentre as figuras bidimensionais há círculos, retângulos e triângulos. Dentre as figuras tridimensionais há esfera, tetraedro e prisma. Considere que
+-Figuras têm cor.
+-Deseja-se calcular a área de figuras bidimensionais.
+-Deseja-se calcular o volume de figuras tridimensionais.
+-Toda figura tem uma representação em String adequada. Para isto, redefina o método toString() de Object.
+Escolha que classes devem ser abstratas. 
+
+2- Implemente um programa que teste as classes da questão anterior. Neste programa, defina um array de Figuras. Coloque uma figura de cada tipo no array e depois:  
+a) Verifique se existem duas figuras com a mesma cor.
+b) Calcule a área de todas as figuras que possuem método adequado.
+c) Calcule o volume de todas as figuras que possuem método adequado.
+
+3- Defina uma hierarquia de classes para funcionários da UFS. Considere que há docentes, pessoal administrativo do quadro e pessoal terceirizado. Dentro dos docentes temos aqueles com dedicação exclusiva, tempo parcial e substitutos. Dentro dos substitutos temos aqueles com dedicação de 20 horas semanais e aqueles com dedicação de 40 horas. Todo funcionário tem nome, CPF e data de nascimento.
+Considere métodos para
+a) Calcular a idade de um funcionário. Use a classe LocalDate para data de nascimento. Utilize o método estático Period.between(LocalDate, LocalDate) para calcular a idade. LocalDate e Period são classes do pacote java.time.
+b) Calcular pagamento no caso de funcionários que não são terceirizados. Defina você mesmo as regras de pagamento para cada tipo de funcionário.
+c) Ver as disciplinas que um docente ministra. Uma disciplina é representada por uma String.
+d) Retirar um docente de uma disciplina.
+e) Alocar uma disciplina a um docente.
+f) Alocar um terceirizado a uma dependência. Uma dependência é representada por uma String.
+Utilize ao menos uma classe abstrata na definição da hierarquia. Defina ao menos um método abstrato.
+Faça um diagrama de classes e implemente em Java. O diagrama de classes deverá ser entregue num arquivo .jpg, .pdf ou .svg.
+
+4- Escreva um programa que teste todos os métodos definidos nas classes da questão anterior. O programa deve sondar o mecanismo de dynamic binding.
+
+5- Defina uma classe Ponto2D com duas variáveis de instância do tipo double para as coordenadas x e y. A classe deve ter métodos get e set para ambas as variáveis e também um método distanciaAoOrigem() que calcula a distância do ponto à origem (0, 0). Com o propósito de reuso de código, defina uma classe Ponto3D que estenda Ponto2D.
+a) Há algum problema em Ponto3D estender Ponto2D? Escreva um trecho de código que evidencia os problemas que você detectou. Coloque sua resposta como comentário no código.
+b) Na classe Ponto2D, adicione um método distancia(Ponto2D). Sugira uma adequação de Ponto3D. Implemente.
+c) Defina Ponto3D recusando Ponto2D sem herança. Use composição.
