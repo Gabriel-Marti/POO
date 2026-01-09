@@ -1,0 +1,14 @@
+Lista de exercícios - programas simples com IO
+
+
+1-Escreva um programa que leia um número inteiro e que escreva na tela se o número é par ou ímpar.
+
+2-Defina um método que calcule a média aritmética de três números double. Escreva então um programa que leia três números double e que escreva na tela a média aritmética dos três.
+
+3-Defina um programa que, dado um inteiro, apresente uma string que informe se o número é positivo, negativo ou nulo. Caso não seja nulo, a string deverá conter também a magnitude do número. Por exemplo, para o valor 15 a função deverá retornar “Positivo 15”, para o valor -15 deverá retornar “Negativo 15” e para 0 deverá retornar “Nulo”.
+
+4-Na última semana do circo em Aracaju os ingressos estão com 50% de desconto para menores de idade e idosos. Considere menor de idade até os 18 anos, inclusive, e idoso a partir dos 60 anos. Para o resto da população o desconto é de 10%. Elabore um programa que receba a idade e o preço normal do ingresso, um Int e um Double, respectivamente. O programa deve apresentar o valor a ser pago.
+
+5-Defina dois métodos, um para transformar graus Fahrenheit para centígrados e outro que faz o inverso. Escreva um programa que permita fazer ambas as transformações. O usuário deverá escolher qual transformação deve ser feita.
+
+6-Um supermercado está com oferta na compra de vinhos. Na compra de três garrafas pagam-se apenas duas. Escreva um programa que leia a quantidade de garrafas de vinho compradas e o preço individual de cada garrafa, sem descontos, e calcule o valor total a pagar.
