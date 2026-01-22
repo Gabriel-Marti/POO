@@ -1,0 +1,16 @@
+*Exercícios sobre Genéricos*
+Classes que implementam a interface java.util.Comparable definem uma relação de ordem nas suas instâncias através do método compareTo da interface. Para mais informações, consulte a documentação do Java.
+
+
+1- Implemente um método genérico que verifique se um array de objetos Comparable está ordenado ascendentemente. Escreva um programa que teste o método com diversas classes Comparable.
+
+2- Implemente um método genérico que dado um array de objetos Comparable calcule o maior elemento do array. Escreva um programa que teste o método com diversas classes Comparable.
+
+3- Implemente um método genérico que, dados dois arrays do mesmo tipo, retorne um array formado pela concatenação de ambos, ou seja, um array que junta em sequência os elementos de ambos os arrays. Escreva um programa que teste o método com arrays de vários tipos.
+
+4- Defina uma classe genérica Par para representar pares de elementos. A classe deverá ter como parâmetros de tipos os tipos dos elementos. As instâncias são imutáveis. A classe deve implementar um método para retornar o primeiro elemento do par e outro para retornar o segundo. Escreva um programa que teste a classe usando diversos tipos.
+
+5- Altere a definição de Par de tal forma que a classe implemente a interface Comparable. A comparação entre pares estará definida pela comparação dos primeiros elementos e, no caso em que sejam iguais, pela comparação dos segundos. Escreva um programa com vários testes.
+
+6- Considere a classe Fila do exercício 6 da Lista de Exercícios 05. Adapte a classe de tal forma que seja genérica com relação ao tipo de elementos da Fila. Escreva um programa com testes.
+
